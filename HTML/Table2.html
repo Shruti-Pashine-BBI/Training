@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Rowspan and Colspan</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>StudentId</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mahi</td>
+                <td>F</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Neha</td>
+                <td>F</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>M</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>John</td>
+                <td>M</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<br>
+    <!-- ROwspan-->
+    <table border="1">
+        <thead>
+            <th>StudentId</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td >1</td>
+                <td>Mahi</td>
+                <td>F</td>
+                <td rowspan="4">21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Neha</td>
+                <td>F</td>
+               
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>M</td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>John</td>
+                <td>M</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <br>
+     <!--  Colspan -->
+     <table border="1">
+        <thead>
+            <th>StudentId</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Marks</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mahi</td>
+                <td>F</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Neha</td>
+                <td>F</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>M</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>John</td>
+                <td>M</td>
+                <td>12</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>24</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+<br>
+    <table border="1">
+        <tr>
+            <td>Column1</td>
+            <td>Column2</td>
+            <td>Column3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row1 Cell1</td>
+            <td>Row1 Cell2</td>
+            <td>Row1 Cell3</td>
+        </tr>
+        <tr>
+            <td>Row2 Cell2</td>
+            <td>Row2 Cell3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row3 Cell1</td>
+            
+        </tr>
+    </table>
+
+    <br>
+    <table border="1">
+        <thead>
+            
+                <th>No</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+                <th >Type</th>
+            
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Micrsoft</td>
+            <td>2cr</td>
+            <td rowspan="4">Company Fouder</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Steve</td>
+            <td>Apple</td>
+            <td>3cr</td>
+           
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Lavi</td>
+            <td>Google</td>
+            <td>7cr</td>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Merk</td>
+            <td>Facebook</td>
+            <td>4.5cr</td>
+            
+        </tr>
+    </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Expenses:</td>
+                <td>20cr</td>  
+            </tr>
+        </tfoot>
+        
+    </table>
+
+    <table border="1">
+        <thead>
+            <th>Country</th>
+            <th>State</th>
+            <th>City</th>
+            <th>Street</th>
+            <th>Male</th>
+            <th>Fwemale</th>
+            <th>Others</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">kerela</td>
+                <td rowspan="2">Cochis</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>            
+                
+
+                <tr>
+                    <td>New Street</td>
+                    <td>New Street</td>
+                    <td>New Street</td>
+                    <td>New Street</td>            
+                    
+            </tr>
+            <tr>
+                
+                
+                <td rowspan="2"> Trivendrum</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>            
+                
+            </tr>
+            <tr>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>            
+                
+            </tr>
+            <tr>
+                
+                
+                <td rowspan="4">Mahrashtra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td> 
+                <td>New Street</td>
+                           
+                
+            </tr>
+            <tr>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>            
+                 
+            </tr>
+            <tr>
+                
+                
+                <td rowspan="2"> Nagpur</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>            
+                
+            </tr>
+            <tr>
+               
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>            
+                
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Alanka</td>
+                <td rowspan="2">Aka Central</td>
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>            
+                <td>New Street</td> 
+            </tr>
+            <tr>
+                
+               
+                <td>New Street</td>
+                <td>New Street</td>
+                <td>New Street</td>            
+                <td>New Street</td> 
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <tr>
+            <td rowspan="3">Day</td>
+            <td colspan="3">Seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2">Schedule</td>
+            <td rowspan="2">Topic</td>
+        </tr>
+        <tr>
+            <td>Begin</td>
+            <td>End</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">1.00 am</td>
+            <td rowspan="2"> 5.00 pm</td>
+            <td> Intro to xml</td>
+        </tr>
+        <tr>
+            <td>Validity DTD</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>1.00 am</td>
+            <td>11.00 am</td>
+            <td rowspan="2">xpath</td>
+        </tr>
+        <tr>
+            <td>11.00 pm</td>
+            <td>2.00pm</td>
+            
+        </tr>
+        <tr>
+            <td>2.00 pm</td>
+            <td>5.00 pm</td>
+            <td>xml transformation</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>1.00pm</td>
+            <td>12.00pm</td>
+            <td>Xsl formatting objects</td>
+        </tr>
+    </table>
+</body>
+</html>
