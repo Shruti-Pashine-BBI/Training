@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Form1</legend>
+      <h2>Event Registration</h2>
+      <form action="/new">
+        <label for="name">Name:</label>
+        <br />
+        <input type="text" id="name" name="name" />
+        <br />
+        <br />
+        <label for="mail1">Email:</label>
+        <br />
+        <input type="email" id="mail1" name="mail" />
+        <br />
+        <br />
+        <label for="Phone1">Phone:</label>
+        <br />
+        <input type="tel" id="Phone1" name="phone" />
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <label><input type="radio" id="gender" value="r" name="age" />Male</label>
+        <label><input type="radio" id="gender" value="r" name="age" />Female</label>
+
+        <label><input type="radio" id="gender" value="r" name="age" />Others</label>
+        <br />
+        <br />
+        <label for="color">Your Favourite Color:</label>
+        <br />
+        <input type="color" id="color" name="color" />
+        <br />
+        <br />
+        <label for="Occupation">Occupation:</label>
+        <br />
+        <select id="Occupation">
+          <option value="Other">Other</option>
+          <option value="Doctor">Doctor</option>
+          <option value="Engineer">Engineer</option>
+          <option value="Teacher">Teacher</option>
+          <option value="Lawyer">Lawyer</option>
+          <option value="Designer">Designer</option>
+          <option value="Artist">Artist</option>
+        </select>
+        <br />
+        <br />
+        <label for="Interest">Topic of Interest:</label>
+        <br />
+
+        <input type="checkbox" name="Checkbox1" id="Checkbox2" />
+        <br />
+        <label for="Checkbox2">Html</label>
+        <br />
+        <input type="checkbox" name="Checkbox2" id="Checkbox3" />
+        <br />
+        <label for="Checkbox3">CSS</label>
+        <br />
+        <input type="checkbox" name="Checkbox2" id="Checkbox4" />
+        <br />
+        <label for="Checkbox4">JavaScript</label>
+        <br />
+        <br />
+        <label for="Comments">Comments:</label>
+        <br />
+        <textarea id="Comments" cols="30" rows="20"></textarea>
+        <button>Register</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
