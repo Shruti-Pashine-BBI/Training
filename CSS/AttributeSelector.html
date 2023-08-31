@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <style>
+        input[type="text"]{
+            color:plum;
+        }
+        input[type="email"]{
+            color:rosybrown;
+        }
+        label{
+            color: cadetblue;
+        }
+
+        a[href*="google"]{
+            color:chartreuse
+        }
+    </style>
+  </head>
+  <body>
+  
+      <h2>Event Registration</h2>
+      <form action="/new">
+        <label for="name">Name:</label>
+        <br />
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+        <br />
+        <br />
+        <label for="mail1">Email:</label>
+        <br />
+        <input type="email" id="mail1" name="mail" placeholder="Enter Your Mail" required>
+        <br />
+        <br />
+        <label for="Phone1">Phone:</label>
+        <br />
+        <input type="tel" id="Phone1" name="phone" />
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <label><input type="radio" id="gender" value="r" name="age" />Male</label>
+        <label><input type="radio" id="gender" value="r" name="age" />Female</label>
+
+        <label><input type="radio" id="gender" value="r" name="age" />Others</label>
+        <br />
+        <br />
+        <label for="color">Your Favourite Color:</label>
+        <br />
+        <input type="color" id="color" name="color" />
+      
+      
+        <button>Register</button>
+      </form>
+
+      <ul>
+        <li> <a href="home">Home</a></li>
+        <li><a href="Inline.html">About</a></li>
+        <li> <a href="External.html">Contact</a></li>
+        <li> <a href="Internal.html">Feedback</a></li>
+       </ul>
+       
+       <a href="www.google.com">Google</a>
+  </body>
+</html>
+

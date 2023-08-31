@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        h2::first-letter{
+            color: plum;
+        }
+        div::first-line{
+            background-color: aqua;
+            font-size: larger;
+        }
+      
+        section,h2,p::first-letter{
+        font-size: 50px;
+        }
+
+        p::selection{
+            background-color: yellow;
+        }
+
+        p::before{
+            content: "This Loream Paragarph->";
+        }
+
+        div::after{
+            content:"End of Lorem";
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <h2>Lorem Data</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quam, 
+    inventore possimus consectetur iste non dolore est voluptates totam ut, 
+    sed quod unde sunt adipisci. Veniam vero ipsum tempore id!</p>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse minima 
+        libero explicabo et nemo pariatur perferendis dolor! Nihil repellat 
+        et exercitationem sequi, dolores tempore, officia ipsum excepturi dicta dolore ab.</div>
+
+        <section>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Iusto dolorum quis ad. Praesentium eum veritatis eius enim esse dolorem eveniet.
+              Vitae reprehenderit quas omnis
+             soluta, illum quisquam in ipsum laudantium.</section>
+            </nav>
+</body>
+</html>
