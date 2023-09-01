@@ -1,0 +1,43 @@
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    padding: 10px;
+  }
+  .grid-item {  
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1rem; 
+    padding: 10px;
+  }
+
+  .grid-container1>div {
+    height: 226px;
+    width: 162px;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      font-size: 30px;
+      text-align: center;
+      padding: auto;
+      font-size: 20px;
+    }
+  
+  .grid-container1>div>img {
+  
+  width: 162px;
+    padding: auto;
+    background-color: antiquewhite;
+  }
+ 
+      
+
