@@ -13,6 +13,7 @@ body{
     padding: 10px;
   }
   .grid-item {  
+    
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -24,6 +25,15 @@ body{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* .resize{
+background-image: #f1f1f1;
+    position: relative;
+    height: 100%;
+    border: 2px solid black; 
+    resize: horizontal;
+    overflow: auto;
+    
+} */
 
 
 header{
@@ -48,17 +58,15 @@ header a{
     float:right;
 }
 
-
-.sidebar {
-    width: 300px;
-    background-image: #f1f1f1;
+  .sidebar{
+width: inherit;
+background-image: #f1f1f1;
     position: relative;
     height: 100%;
     border: 2px solid black; 
     resize: horizontal;
     overflow: auto;
   }
-  
   .sidebar a {
     display: block;
     color: black;
