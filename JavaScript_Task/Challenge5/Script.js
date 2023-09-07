@@ -1,3 +1,4 @@
+"use strict";
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 
 const scoreDolphins = calcAverage(44, 23, 71);
@@ -12,3 +13,4 @@ function checkWinner(avgDolphins, avgKoalas) {
     console.log(`No team wins...`);
   }
 }
+checkWinner(scoreDolphins, scoreKoalas);

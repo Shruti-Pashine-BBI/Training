@@ -1,3 +1,4 @@
+"use strict";
 const friends = ["Michael", "steven", "peter"];
 const friends2 = ["Neha", "kia,'Jeeya"];
 
