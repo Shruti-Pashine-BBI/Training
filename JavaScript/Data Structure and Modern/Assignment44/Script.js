@@ -1,26 +1,30 @@
-const airline = "TAP Air Portugal";
-const plane = "A320";
+const str = "TAP Air Portugal";
+const str1 = "A320";
 
-console.log(plane[0]);
-console.log(plane[1]);
-console.log(plane[2]);
-console.log("B737"[0]);
+console.log(str[0]);
+console.log(str[1]);
+console.log(str[2]);
+console.log(str[3]); //space
 
-console.log(airline.length);
-console.log("B737".length);
+console.log("Shruti"[0]);
+console.log(`Length Of string 1 is: ${str.length}`);
+console.log(`Length Of string 1 is: ${str1.length}`);
 
-console.log(airline.indexOf("r"));
-console.log(airline.lastIndexOf("r"));
-console.log(airline.indexOf("portugal"));
+console.log(str.indexOf("r"));
+console.log(str.lastIndexOf("t"));
+console.log(str.lastIndexOf("Portugal"));
 
-console.log(airline.slice(4));
-console.log(airline.slice(4, 7));
+console.log(str.indexOf("Portugal"));
+console.log(str.indexOf("Air"));
 
-console.log(airline.slice(0, airline.indexOf(" ")));
-console.log(airline.slice(airline.lastIndexOf(" ") + 1));
+console.log(str1.slice(2));
+console.log(str.slice(4, 7));
 
-console.log(airline.slice(-2));
-console.log(airline.slice(1, -1));
+console.log(str.slice(0, str.indexOf(" ")));
+console.log(str.slice(str.lastIndexOf(" ") + 1));
+
+console.log(str.slice(-2));
+console.log(str.slice(1, -1));
 
 const checkMiddleSeat = function (seat) {
   // B and E are middle seats

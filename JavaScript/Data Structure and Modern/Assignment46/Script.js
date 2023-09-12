@@ -11,7 +11,6 @@ const capitalizeName = function (name) {
   const namesUpper = [];
 
   for (const n of names) {
-    // namesUpper.push(n[0].toUpperCase() + n.slice(1));
     namesUpper.push(n.replace(n[0], n[0].toUpperCase()));
   }
   console.log(namesUpper.join(" "));
@@ -20,7 +19,6 @@ const capitalizeName = function (name) {
 capitalizeName("jessica ann smith davis");
 capitalizeName("jonas schmedtmann");
 
-// Padding
 const message = "Go to gate 23!";
 console.log(message.padStart(20, "+").padEnd(30, "+"));
 console.log("Jonas".padStart(20, "+").padEnd(30, "+"));
@@ -35,7 +33,6 @@ console.log(maskCreditCard(64637836));
 console.log(maskCreditCard(43378463864647384));
 console.log(maskCreditCard("334859493847755774747"));
 
-// Repeat
 const message2 = "Bad waether... All Departues Delayed... ";
 console.log(message2.repeat(5));
 
