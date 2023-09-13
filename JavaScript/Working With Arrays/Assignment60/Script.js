@@ -1,7 +1,12 @@
-var fruits = ["apple", "orange", "mango", "watermelon", "Grapes"];
+"use strict";
+const mov = [200, 450, -400, 3000, -650, -130, 70, 1300];
+const movement = mov.filter(function (movs) {
+  return movs > 0;
+});
 
-fruits.forEach(myfunction);
+//arrow function
 
-function myfunction(item, index) {
-  console.log(index + ":" + item);
-}
+const movement1 = mov.filter((movs) => movs < 0);
+console.log(mov);
+console.log(movement);
+console.log(movement1);
