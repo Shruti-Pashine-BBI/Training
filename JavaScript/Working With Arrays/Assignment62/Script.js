@@ -4,4 +4,3 @@ const movement = move
   .filter((mov) => mov > 0)
   .map((mov) => mov * newmov)
   .reduce((acc, mov) => acc + mov, 0);
-console.log(movement);
