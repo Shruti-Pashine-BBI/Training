@@ -16,20 +16,26 @@ console.log(document.getElementsByClassName("btn"));
 // Creating and inserting elements
 const message = document.createElement("div");
 message.classList.add("cookie-message");
-// message.textContent = 'We use cookied for improved functionality and analytics.';
 message.innerHTML =
   'We use cookied for improved functionality and analytics. <button class="btn btn--close-cookie">Got it!</button>';
-// header.prepend(message);
-header.append(message);
-// header.append(message.cloneNode(true));
 
-// header.before(message);
-// header.after(message);
+header.append(message);
 
 // Delete elements
-document
-  .querySelector(".btn--close-cookie")
-  .addEventListener("click", function () {
-    // message.remove();
-    message.parentElement.removeChild(message);
-  });
+function myFunction() {
+  const list = document.getElementById("myList");
+  list.removeChild(list.firstElementChild);
+}
+
+const set1 = new Set();
+
+set1.add(42);
+set1.add(42);
+set1.add(62);
+set1.add(13);
+console.log(set1);
+for (const item of set1) {
+  console.log(item);
+  // Expected output: 42
+  // Expected output: 13
+}
