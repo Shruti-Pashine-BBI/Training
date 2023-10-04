@@ -69,4 +69,3 @@ document.addEventListener("DOMContentLoaded", function () {
     counter.innerText = `Counter ${count}`;
   }
 });
-// https://v6.exchangerate-api.com/v6/3e9c29e25e850b90602ac642/latest/USD

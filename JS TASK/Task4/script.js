@@ -27,24 +27,8 @@ class logicalOperation {
     console.log(`andResult: ${bool1 && bool2}`);
     console.log(`orResult: ${bool1 || bool2}`);
     console.log(`notAndResult: ${!bool2 && bool1}`);
-    console.log(`notOrResult: ${!bool2 || bool1}`);
+    console.log(`notAndResult: ${!bool2 || bool1}`);
   }
 }
 const obj = new logicalOperation();
 obj.getdata();
-// class Person {
-//   getData1() {
-//     const bool1 = true;
-//     const bool2 = false;
-//     return {
-//       andResult: bool1 && bool2,
-//       orResult: bool1 || bool2,
-//       notAndResult: !bool2 && bool1,
-//       notOrResult: !bool2 || bool1,
-//     };
-//   }
-// }
-
-// const person = new Person();
-// const results = person.getData1();
-// console.log(results);
